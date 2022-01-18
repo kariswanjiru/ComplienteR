@@ -10,6 +10,8 @@ from flask import (
     url_for,
 )
 
+from twilio.rest import Client
+
 load_dotenv()
 app = Flask(__name__)
 app.secret_key = "ssssh don't tell anyone"
